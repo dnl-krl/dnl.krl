@@ -1,0 +1,8 @@
+value = input("Введи число кратное 5:")
+
+if float(value) % 5 == 0:
+    res = float(value) * 2
+    print("Твой результат: ", res)
+else:
+    res = 0
+    print("Извини, но", value, "не кратно 5...", "Твой результат:", res)
