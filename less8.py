@@ -23,8 +23,3 @@ def names():
 result = names()
 
 #############################################
-
-def gen_mail():
-    print(f'names()+)
-
-result = names()
